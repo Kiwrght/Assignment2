@@ -1,11 +1,11 @@
 # Assignment2
-Assignment 2 focuses on building a HTML U.S. population table using a REST API with the data. HTML code was used to map out the table; while JavaScript was used for functional code.
+Assignment 2 focuses on building an HTML U.S. population table using a REST API with the data. HTML code was used to map the table, while JavaScript was used for the functional code.
 ## HTML 
 ### Code Description
-The HTML contains the map code for the table. 
-## script(https://github.com/Kiwrght/Assignment2/blob/main/script.js)
+index.html contains the map code for the table. 
+## JavaScript
 ### Code Description
-The script contains the functional code for the HTML. Script fetches the data from the REST API and sorts it into the table row by row.  
+The script.js contains the functional code for the HTML. Script fetches the data from the REST API and sorts it into a row-by-row table.  
 ## Output
 The overall Output is shown below:
 
