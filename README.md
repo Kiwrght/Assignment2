@@ -3,7 +3,7 @@ Assignment 2 focuses on building a HTML U.S. population table using a REST API w
 ## HTML 
 ### Code Description
 The HTML contains the map code for the table. 
-## script
+## script(https://github.com/Kiwrght/Assignment2/blob/main/script.js)
 ### Code Description
 The script contains the functional code for the HTML. Script fetches the data from the REST API and sorts it into the table row by row.  
 ## Output
