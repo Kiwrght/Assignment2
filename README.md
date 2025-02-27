@@ -5,6 +5,14 @@ This project builds a U.S. population table using data fetched from a REST API. 
 
 ```script.js``` : Contains the functional code for the HTML. Script fetches the data from the REST API and populates it into a row-by-row table.
 
+## How it works
+### HTML
+The HTML file includes a simple table structure with headers like "Year," "Population," etc. These headers will represent the data being fetched.
+### JavaScript
+```script.js``` is responsible for fetching the U.S. population data from a REST API. Sort the data into rows corresponding to states and their population. Dynamically add rows to the table in the HTML file with the fetched data.
+### REST API
+A REST API is used to fetch the population data. The API will return the population details for each year, and JavaScript processes this data to present it in a table.
+
 ## Output
 The overall Output is shown below:
 
