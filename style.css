@@ -1,0 +1,26 @@
+/* General Page Styling */
+body {
+    background-color: lightblue; /* Makes page background light blue */
+}
+
+/* Table Styling */
+#Population {
+    border: 2px solid black; /* Makes table border black */
+    zoom: 150%; /* Zooms into the table */
+    margin: auto; /* Centers the table */
+    background-color: white; /* Makes table background white */
+}
+
+/* Table Header Styling */
+#Population th {
+    background-color: lightgray; /* Optional: Gives table headers a light gray background */
+    padding: 8px;
+    text-align: center;
+}
+
+/* Table Cell Styling */
+#Population td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}

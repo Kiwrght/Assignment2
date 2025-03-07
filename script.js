@@ -1,18 +1,6 @@
 id = "script.js"
 var table = document.getElementById("Population")
 var tbody = document.createElement("tbody")[0];
-/* Formatting Table  */
-//make table border black
-table.style.border = "2px solid Black";
-//zoom into the table
-table.style.zoom = "150%";
-//make the table centered
-table.style.margin = "auto";
-//makes page background color light blue
-document.body.style.backgroundColor = "lightblue";
-//makes table background color white
-table.style.backgroundColor = "white";
-
 
 /* Adding Data to the Table*/
 const URL = "https://datausa.io/api/data?drilldowns=Nation&measures=Population" 
