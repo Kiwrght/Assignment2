@@ -1,20 +1,21 @@
 id = "script.js"
 var table = document.getElementById("Population")
-var tbody = document.createElement("tbody")[0];
+var tbody = document.querySelector("#Population tbody");
+
 
 /* Adding Data to the Table*/
 const URL = "https://datausa.io/api/data?drilldowns=Nation&measures=Population" 
 
-async function fetchData(params) {
+async function fetchData() {
     const response = await fetch(URL);
     const data = await response.json();
     console.log(data);
 
-    const tdata = [];
+    let tdata = [];
 
     for (let i = 0; i < data.data.length; i++) {
-        tdata.push(data.data[i].Nation,
-            data.data[i].Population); 
+        tdata.push([data.data[i].Year,
+            data.data[i].Population]); 
     }
 
     console.log(tdata);
